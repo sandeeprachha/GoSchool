@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0260B71C72119F00B55FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0260B61C72119F00B55FB3 /* AppDelegate.swift */; };
+		4F0260B91C72119F00B55FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0260B81C72119F00B55FB3 /* ViewController.swift */; };
+		4F0260BC1C72119F00B55FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0260BA1C72119F00B55FB3 /* Main.storyboard */; };
+		4F0260BF1C72119F00B55FB3 /* GoSchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F0260BD1C72119F00B55FB3 /* GoSchool.xcdatamodeld */; };
+		4F0260C11C72119F00B55FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0260C01C72119F00B55FB3 /* Assets.xcassets */; };
+		4F0260C41C72119F00B55FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0260C21C72119F00B55FB3 /* LaunchScreen.storyboard */; };
+		4F0260CF1C72119F00B55FB3 /* GoSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0260CE1C72119F00B55FB3 /* GoSchoolTests.swift */; };
+		4F0260DA1C72119F00B55FB3 /* GoSchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0260D91C72119F00B55FB3 /* GoSchoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F0260CB1C72119F00B55FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F0260AB1C72119F00B55FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0260B21C72119F00B55FB3;
+			remoteInfo = GoSchool;
+		};
+		4F0260D61C72119F00B55FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F0260AB1C72119F00B55FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0260B21C72119F00B55FB3;
+			remoteInfo = GoSchool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F0260B31C72119F00B55FB3 /* GoSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0260B61C72119F00B55FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F0260B81C72119F00B55FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F0260BB1C72119F00B55FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F0260BE1C72119F00B55FB3 /* GoSchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoSchool.xcdatamodel; sourceTree = "<group>"; };
+		4F0260C01C72119F00B55FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F0260C31C72119F00B55FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F0260C51C72119F00B55FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0260CA1C72119F00B55FB3 /* GoSchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSchoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0260CE1C72119F00B55FB3 /* GoSchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoSchoolTests.swift; sourceTree = "<group>"; };
+		4F0260D01C72119F00B55FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0260D51C72119F00B55FB3 /* GoSchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0260D91C72119F00B55FB3 /* GoSchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoSchoolUITests.swift; sourceTree = "<group>"; };
+		4F0260DB1C72119F00B55FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0260B01C72119F00B55FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0260C71C72119F00B55FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0260D21C72119F00B55FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0260AA1C72119F00B55FB3 = {
+			isa = PBXGroup;
+			children = (
+				4F0260B51C72119F00B55FB3 /* GoSchool */,
+				4F0260CD1C72119F00B55FB3 /* GoSchoolTests */,
+				4F0260D81C72119F00B55FB3 /* GoSchoolUITests */,
+				4F0260B41C72119F00B55FB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0260B41C72119F00B55FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0260B31C72119F00B55FB3 /* GoSchool.app */,
+				4F0260CA1C72119F00B55FB3 /* GoSchoolTests.xctest */,
+				4F0260D51C72119F00B55FB3 /* GoSchoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0260B51C72119F00B55FB3 /* GoSchool */ = {
+			isa = PBXGroup;
+			children = (
+				4F0260B61C72119F00B55FB3 /* AppDelegate.swift */,
+				4F0260B81C72119F00B55FB3 /* ViewController.swift */,
+				4F0260BA1C72119F00B55FB3 /* Main.storyboard */,
+				4F0260C01C72119F00B55FB3 /* Assets.xcassets */,
+				4F0260C21C72119F00B55FB3 /* LaunchScreen.storyboard */,
+				4F0260C51C72119F00B55FB3 /* Info.plist */,
+				4F0260BD1C72119F00B55FB3 /* GoSchool.xcdatamodeld */,
+			);
+			path = GoSchool;
+			sourceTree = "<group>";
+		};
+		4F0260CD1C72119F00B55FB3 /* GoSchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F0260CE1C72119F00B55FB3 /* GoSchoolTests.swift */,
+				4F0260D01C72119F00B55FB3 /* Info.plist */,
+			);
+			path = GoSchoolTests;
+			sourceTree = "<group>";
+		};
+		4F0260D81C72119F00B55FB3 /* GoSchoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F0260D91C72119F00B55FB3 /* GoSchoolUITests.swift */,
+				4F0260DB1C72119F00B55FB3 /* Info.plist */,
+			);
+			path = GoSchoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F0260B21C72119F00B55FB3 /* GoSchool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0260DE1C72119F00B55FB3 /* Build configuration list for PBXNativeTarget "GoSchool" */;
+			buildPhases = (
+				4F0260AF1C72119F00B55FB3 /* Sources */,
+				4F0260B01C72119F00B55FB3 /* Frameworks */,
+				4F0260B11C72119F00B55FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoSchool;
+			productName = GoSchool;
+			productReference = 4F0260B31C72119F00B55FB3 /* GoSchool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F0260C91C72119F00B55FB3 /* GoSchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0260E11C72119F00B55FB3 /* Build configuration list for PBXNativeTarget "GoSchoolTests" */;
+			buildPhases = (
+				4F0260C61C72119F00B55FB3 /* Sources */,
+				4F0260C71C72119F00B55FB3 /* Frameworks */,
+				4F0260C81C72119F00B55FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F0260CC1C72119F00B55FB3 /* PBXTargetDependency */,
+			);
+			name = GoSchoolTests;
+			productName = GoSchoolTests;
+			productReference = 4F0260CA1C72119F00B55FB3 /* GoSchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F0260D41C72119F00B55FB3 /* GoSchoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0260E41C72119F00B55FB3 /* Build configuration list for PBXNativeTarget "GoSchoolUITests" */;
+			buildPhases = (
+				4F0260D11C72119F00B55FB3 /* Sources */,
+				4F0260D21C72119F00B55FB3 /* Frameworks */,
+				4F0260D31C72119F00B55FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F0260D71C72119F00B55FB3 /* PBXTargetDependency */,
+			);
+			name = GoSchoolUITests;
+			productName = GoSchoolUITests;
+			productReference = 4F0260D51C72119F00B55FB3 /* GoSchoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0260AB1C72119F00B55FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = srachha;
+				TargetAttributes = {
+					4F0260B21C72119F00B55FB3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4F0260C91C72119F00B55FB3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4F0260B21C72119F00B55FB3;
+					};
+					4F0260D41C72119F00B55FB3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4F0260B21C72119F00B55FB3;
+					};
+				};
+			};
+			buildConfigurationList = 4F0260AE1C72119F00B55FB3 /* Build configuration list for PBXProject "GoSchool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F0260AA1C72119F00B55FB3;
+			productRefGroup = 4F0260B41C72119F00B55FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0260B21C72119F00B55FB3 /* GoSchool */,
+				4F0260C91C72119F00B55FB3 /* GoSchoolTests */,
+				4F0260D41C72119F00B55FB3 /* GoSchoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F0260B11C72119F00B55FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0260C41C72119F00B55FB3 /* LaunchScreen.storyboard in Resources */,
+				4F0260C11C72119F00B55FB3 /* Assets.xcassets in Resources */,
+				4F0260BC1C72119F00B55FB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0260C81C72119F00B55FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0260D31C72119F00B55FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F0260AF1C72119F00B55FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0260B91C72119F00B55FB3 /* ViewController.swift in Sources */,
+				4F0260BF1C72119F00B55FB3 /* GoSchool.xcdatamodeld in Sources */,
+				4F0260B71C72119F00B55FB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0260C61C72119F00B55FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0260CF1C72119F00B55FB3 /* GoSchoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0260D11C72119F00B55FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0260DA1C72119F00B55FB3 /* GoSchoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F0260CC1C72119F00B55FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F0260B21C72119F00B55FB3 /* GoSchool */;
+			targetProxy = 4F0260CB1C72119F00B55FB3 /* PBXContainerItemProxy */;
+		};
+		4F0260D71C72119F00B55FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F0260B21C72119F00B55FB3 /* GoSchool */;
+			targetProxy = 4F0260D61C72119F00B55FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F0260BA1C72119F00B55FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0260BB1C72119F00B55FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F0260C21C72119F00B55FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0260C31C72119F00B55FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F0260DC1C72119F00B55FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F0260DD1C72119F00B55FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F0260DF1C72119F00B55FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoSchool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rs.GoSchool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F0260E01C72119F00B55FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoSchool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rs.GoSchool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F0260E21C72119F00B55FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoSchoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rs.GoSchoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSchool.app/GoSchool";
+			};
+			name = Debug;
+		};
+		4F0260E31C72119F00B55FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoSchoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rs.GoSchoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSchool.app/GoSchool";
+			};
+			name = Release;
+		};
+		4F0260E51C72119F00B55FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoSchoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rs.GoSchoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoSchool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F0260E61C72119F00B55FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoSchoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rs.GoSchoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoSchool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F0260AE1C72119F00B55FB3 /* Build configuration list for PBXProject "GoSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0260DC1C72119F00B55FB3 /* Debug */,
+				4F0260DD1C72119F00B55FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0260DE1C72119F00B55FB3 /* Build configuration list for PBXNativeTarget "GoSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0260DF1C72119F00B55FB3 /* Debug */,
+				4F0260E01C72119F00B55FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F0260E11C72119F00B55FB3 /* Build configuration list for PBXNativeTarget "GoSchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0260E21C72119F00B55FB3 /* Debug */,
+				4F0260E31C72119F00B55FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F0260E41C72119F00B55FB3 /* Build configuration list for PBXNativeTarget "GoSchoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0260E51C72119F00B55FB3 /* Debug */,
+				4F0260E61C72119F00B55FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F0260BD1C72119F00B55FB3 /* GoSchool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F0260BE1C72119F00B55FB3 /* GoSchool.xcdatamodel */,
+			);
+			currentVersion = 4F0260BE1C72119F00B55FB3 /* GoSchool.xcdatamodel */;
+			path = GoSchool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F0260AB1C72119F00B55FB3 /* Project object */;
+}
