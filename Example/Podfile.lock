@@ -1,0 +1,16 @@
+PODS:
+  - GoSchool (0.1.0)
+
+DEPENDENCIES:
+  - GoSchool (from `../`)
+
+EXTERNAL SOURCES:
+  GoSchool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoSchool: 4681ef8428fadf997dc4670b630b9610df8e3e38
+
+PODFILE CHECKSUM: a804aea6d516e2d3633a2faea8995dd992abe210
+
+COCOAPODS: 1.9.3
