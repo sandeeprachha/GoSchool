@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GoSchool_Tests' do
+  pod 'GoSchool', :path => '../'
+  
+  
+end
